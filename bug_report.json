@@ -1,1 +1,18 @@
-
+{
+	"Identifier":1,
+  "Summary":"Site layout on the first page is not recommended with layout placement",
+	"Descriprion":"Actual result and Expected result",
+	"Actual result":"The layout of the site on the first page does not match the layout of the application. More than 5 pixel spacing",
+	"Expected result":"The layout of the site on the first page matches the layout when overlaying. Run up to 5 pixels.",
+	"Reproduced on":"Win 10",
+	"Reproducibility":"always",
+	"For more details see attachment":"https://www.screencast.com/t/hkQkQ8CeueY8",
+	"Steps to reproduce":{"1":"Open website in Chrome",
+						  "2":"Install and open PerfectPixel browser plugin",
+              "3":"Drag the layout of the first page of the site in jpg format into the plugin window",
+              "4":"Set the parameters in the plugin x=1, y=1, scale=0.24",
+              "5":"Apply a layout layer to the layout of the site according to the edges of the main block",
+              "6":"Hold down Shift + use arrow keys to change position by 10px"},
+	"Severity":"minor",
+	"Priority":"low"
+} 
